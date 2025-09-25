@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pour toi 💌</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffe5e5, #ffd6d6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Courier New', Courier, monospace;
+      transition: background 1s;
+    }
+
+    /* petit effet quand on bouge la souris sur la page */
+    body:hover {
+      background: linear-gradient(135deg, #ffd6d6, #ffe5e5);
+    }
+
+    .button {
+      background-color: #ffb3b3;
+      border: none;
+      padding: 20px 50px;
+      border-radius: 50px;
+      font-size: 24px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      transition: all 0.4s ease;
+      color: white;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .button:hover {
+      transform: scale(1.1);
+      background-color: #ff8c8c;
+      box-shadow: 0 0 25px rgba(255, 140, 140, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <a href="lettre.html">
+    <button class="button">💌 Ouvre-moi 💌</button>
+  </a>
+</body>
+</html>
